@@ -12,3 +12,7 @@ console.log(idade + idade2);
 * console.log(frase.replace("Japão", "Brasil")); 
 troca a palavra Japão
 na frase pela palavra Basil.
+
+*frase.touppercase() transforma a frase em toda caixa alta
+* frase.tolowercase() -> transforma a frase em caixa baixa
+
