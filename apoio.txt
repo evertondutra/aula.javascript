@@ -1,0 +1,1 @@
+alert("meu primeiro js")   -> cria um uma msg de alerta pop-up
