@@ -1,0 +1,19 @@
+var lista = ["maça", "pera", "laranja"]
+
+lista.push() -> adiciona a lista
+lista.pop()  -> retira o último elemento da lista
+lista.length -> mostra o tamanho da 
+lista.reverse() -> mostra a lista de trás para frente
+lista.toString() -> transforma a lista em uma string
+lista.join(-) -> mosta a string separando as palavras pos -
+
+
+Dicionário
+
+var fruta = {nome:"maça", cor:"vermelha"};
+
+console.log(fruta.nome); -> mostra apenas o nome
+
+uma lista de Dicionário
+var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
+console.log(frutas[0].cor); -> mostra a cor vermelha
