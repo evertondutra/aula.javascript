@@ -1,2 +1,3 @@
 var nome = "Everton Dutra";
-alert("Bem Vindo " + nome);
+var idade = 29
+alert(nome + " tem " + idade + " anos");
