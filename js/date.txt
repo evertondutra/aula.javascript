@@ -1,0 +1,4 @@
+var d = new Date();
+// alert(d)  mostra a data como dia, mês, horário
+// alert(d.getMonth()+ 1);  mostra o mês
+// alert(d.getMinutes());  mostra os minutos

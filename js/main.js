@@ -30,5 +30,23 @@ if (idade >= 18){
 }else{
     alert("Menor de idade");
 };
+
+
+var count = 0;
+while (count <= 10){
+    console.log(count);
+    count = count + 1;
+    // count ++
+};
+
+
+var count;
+for(count=0; count <= 5; count ++){
+    alert(count);
+};
 */
 
+var d = new Date();
+alert(d)  //mostra a data como dia, mês, horário
+alert(d.getMonth()+ 1);  //mostra o mês
+alert(d.getMinutes());  //mostra os minutos

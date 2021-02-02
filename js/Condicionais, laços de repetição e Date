@@ -8,5 +8,18 @@ if (idade >= 18){
 };
 
 
+** estrutura de repetição while
 
+var count = 0;
+while (count <= 10){
+    console.log(count);
+    count = count + 1;
+    // count ++
+};
 
+** Estrutura de repetição for
+
+var count;
+for(count=0; count <= 5; count ++){
+    alert(count);
+};
