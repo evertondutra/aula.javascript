@@ -17,7 +17,18 @@ console.log(lista.join(" | "))
 
 var fruta = {nome:"maça", cor:"vermelha"};
 console.log(fruta.nome);
-*/
+
 
 var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
 console.log(frutas[0].cor);
+
+
+var idade = prompt("Qual a sua idade? ");
+
+if (idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("Menor de idade");
+};
+*/
+
