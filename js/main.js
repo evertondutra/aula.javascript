@@ -44,9 +44,32 @@ var count;
 for(count=0; count <= 5; count ++){
     alert(count);
 };
-*/
+
 
 var d = new Date();
 alert(d)  //mostra a data como dia, mês, horário
 alert(d.getMonth()+ 1);  //mostra o mês
 alert(d.getMinutes());  //mostra os minutos
+*/
+
+
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+function validaIdade(idade){
+    var valida;
+    if (idade >=18){
+        valida = true
+    }else{
+        valida = false
+    }
+    return valida;
+}
+
+var idade = prompt("Qual a sua idade");
+console.log(validaIdade(idade))
+
+alert(soma(5, 10));
+
+
