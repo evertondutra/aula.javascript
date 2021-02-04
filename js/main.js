@@ -52,7 +52,7 @@ alert(d.getMonth()+ 1);  //mostra o mês
 alert(d.getMinutes());  //mostra os minutos
 */
 
-
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
@@ -71,5 +71,26 @@ var idade = prompt("Qual a sua idade");
 console.log(validaIdade(idade))
 
 alert(soma(5, 10));
+*/
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+}
+
+
+function redirecionar(){
+    window.open("https://web.digitalinnovation.one/");
+    window.location.href = "https://web.digitalinnovation.one/";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("Trocar texto");
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
 
